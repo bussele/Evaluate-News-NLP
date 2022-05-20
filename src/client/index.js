@@ -1,5 +1,6 @@
 import { checkForName } from './js/nameChecker'
 import { handleSubmit } from './js/formHandler'
+import { checkForURL } from './js/urlChecker'
 
 import './styles/resets.scss'
 import './styles/base.scss'
@@ -9,12 +10,13 @@ import './styles/header.scss'
 
 export {
     checkForName,
-    handleSubmit
+    handleSubmit,
+    checkForURL,
    }
 
-console.log(checkForName);
+console.log(checkForURL);
 
-alert("I EXIST")
+alert("Check")
 console.log("CHANGE!!");
 
 window.addEventListener("DOMContentLoaded", (event) => {
